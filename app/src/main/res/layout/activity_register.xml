@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    tools:context=".ui.register.RegisterActivity">
+
+  <include
+      android:id="@+id/toolbar_register"
+      layout="@layout/app_toolbar"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ScrollView
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:fillViewport="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/toolbar_register">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login">
+
+      <TextView
+          android:id="@+id/tv_register_title"
+          style="@style/BlackTextStyle.Size24"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="40dp"
+          android:text="@string/label_register_here"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/tv_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="32dp"
+          android:text="@string/label_name"
+          android:textAllCaps="true"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/tv_register_title" />
+
+      <EditText
+          android:id="@+id/et_first_name"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="@string/label_first_name"
+          android:inputType="textCapWords"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/tv_name"
+          app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+      <EditText
+          android:id="@+id/et_last_name"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="@string/label_last_name"
+          android:inputType="textCapWords"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="@+id/et_first_name"
+          app:layout_constraintTop_toBottomOf="@+id/et_first_name" />
+
+      <TextView
+          android:id="@+id/tv_phone"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="24dp"
+          android:text="@string/label_phone"
+          android:textAllCaps="true"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/et_last_name" />
+
+      <EditText
+          android:id="@+id/et_phone"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="@string/label_mobile_number"
+          android:inputType="phone"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/tv_phone"
+          app:layout_constraintTop_toBottomOf="@+id/tv_phone" />
+
+      <TextView
+          android:id="@+id/tv_address"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="24dp"
+          android:text="@string/label_address"
+          android:textAllCaps="true"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/et_phone" />
+
+      <EditText
+          android:id="@+id/et_house_no"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="@string/label_house_no"
+          android:inputType="number"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/tv_address"
+          app:layout_constraintTop_toBottomOf="@+id/tv_address" />
+
+      <EditText
+          android:id="@+id/et_house_lane"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="@string/label_house_lane"
+          android:inputType="textPostalAddress"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/et_house_no"
+          app:layout_constraintTop_toBottomOf="@+id/et_house_no" />
+
+      <EditText
+          android:id="@+id/et_house_suburb"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="@string/label_house_suburb"
+          android:inputType="textPostalAddress"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/et_house_lane"
+          app:layout_constraintTop_toBottomOf="@+id/et_house_lane" />
+
+      <EditText
+          android:id="@+id/et_house_postcode"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="@string/label_house_postcode"
+          android:inputType="number"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/et_house_suburb"
+          app:layout_constraintTop_toBottomOf="@+id/et_house_suburb" />
+
+      <TextView
+          android:id="@+id/tv_dob"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="24dp"
+          android:text="@string/label_dob"
+          android:textAllCaps="true"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/et_house_postcode"
+          app:layout_editor_absoluteY="500dp" />
+
+      <EditText
+          android:id="@+id/et_dob"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="xxxx-xx-xx"
+          android:inputType="date"
+          android:focusable="false"
+          android:editable="false"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/tv_dob"
+          app:layout_constraintTop_toBottomOf="@+id/tv_dob" />
+
+      <TextView
+          android:id="@+id/tv_gender"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="24dp"
+          android:text="@string/label_gender"
+          android:textAllCaps="true"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/et_dob" />
+
+      <RadioGroup
+          android:id="@+id/radio_group"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="4dp"
+          android:orientation="horizontal"
+          app:layout_constraintStart_toStartOf="@+id/tv_gender"
+          app:layout_constraintTop_toBottomOf="@+id/tv_gender">
+
+        <RadioButton
+            android:id="@+id/rbtn_male"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/label_male" />
+
+        <RadioButton
+            android:id="@+id/rbtn_female"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_female" />
+      </RadioGroup>
+
+      <TextView
+          android:id="@+id/tv_email"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="24dp"
+          android:text="@string/label_email"
+          android:textAllCaps="true"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/radio_group" />
+
+      <EditText
+          android:id="@+id/et_email"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="example@email.com"
+          android:inputType="textEmailAddress"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/tv_email"
+          app:layout_constraintTop_toBottomOf="@+id/tv_email" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="24dp"
+          android:text="@string/label_username"
+          android:textAllCaps="true"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/et_email" />
+
+      <EditText
+          android:id="@+id/tv_register_username"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:hint="@string/label_username"
+          android:textSize="14sp"
+          android:focusable="false"
+          android:editable="false"
+          android:layout_marginTop="4dp"
+          app:layout_constraintEnd_toEndOf="@+id/et_email"
+          app:layout_constraintStart_toStartOf="@+id/textView2"
+          app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+      <TextView
+          android:id="@+id/tv_password"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="24dp"
+          android:text="@string/label_password"
+          android:textAllCaps="true"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/tv_register_username" />
+
+      <EditText
+          android:id="@+id/et_password"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="@string/hint_enter_password"
+          android:inputType="textPassword"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/tv_password"
+          app:layout_constraintTop_toBottomOf="@+id/tv_password" />
+
+      <EditText
+          android:id="@+id/et_confirm_password"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="4dp"
+          android:layout_marginEnd="20dp"
+          android:hint="@string/hint_re_enter_password"
+          android:inputType="textPassword"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/et_password"
+          app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:layout_width="0dp"
+          android:layout_height="80dp"
+          android:layout_marginTop="32dp"
+          android:background="@color/colorWhite"
+          android:elevation="4dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/et_confirm_password">
+
+        <Button
+            android:id="@+id/btn_register"
+            style="@style/PrimaryBlackButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:stateListAnimator="@null"
+            android:text="@string/label_register"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,128 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorWhite</item>
+    <item name="colorPrimaryDark">@color/colorLightBlack</item>
+    <item name="colorAccent">@color/colorBlack</item>
+    <item name="android:windowBackground">@color/colorWhite</item>
+  </style>
+
+  <!--toolbar style-->
+  <style name="ToolBarStyle">
+    <item name="titleTextColor">@color/colorBlack</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:actionMenuTextColor">@color/colorAccent</item>
+    <item name="android:actionMenuTextAppearance">@style/MenuItemStyle</item>
+  </style>
+
+  <style name="MenuItemStyle">
+    <item name="android:textSize">15sp</item>
+    <item name="android:textAllCaps">false</item>
+  </style>
+
+  <!--progress Bar Style-->
+  <style name="ProgressbarStyle">
+    <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+    <item name="android:windowBackground">@color/colorTransparent</item>
+    <item name="android:textColorPrimary">#FFFFFF</item>
+    <item name="android:backgroundDimEnabled">false</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">12sp</item>
+  </style>
+
+  <style name="CustomAlertDialogStyle">
+    <item name="android:bottomBright">@color/colorTransparent</item>
+    <item name="android:bottomDark">@color/colorTransparent</item>
+    <item name="android:bottomMedium">@color/colorTransparent</item>
+    <item name="android:centerBright">@color/colorTransparent</item>
+    <item name="android:centerDark">@color/colorTransparent</item>
+    <item name="android:centerMedium">@color/colorTransparent</item>
+    <item name="android:fullBright">@color/colorTransparent</item>
+    <item name="android:fullDark">@color/colorTransparent</item>
+    <item name="android:topBright">@color/colorTransparent</item>
+    <item name="android:topDark">@color/colorTransparent</item>
+  </style>
+
+  <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowFullscreen">true</item>
+  </style>
+
+  <style name="PrimaryWhiteButtonStyle">
+    <item name="android:background">@drawable/bg_white_black_stroke_corner_round</item>
+    <item name="android:textColor">@color/colorBlack</item>
+    <item name="textAllCaps">true</item>
+    <item name="android:stateListAnimator">@null</item>
+    <item name="android:textSize">15sp</item>
+  </style>
+
+  <style name="PrimaryBlackButtonStyle">
+    <item name="android:background">@drawable/bg_black_corner_round</item>
+    <item name="android:textColor">@color/colorWhite</item>
+    <item name="textAllCaps">true</item>
+    <item name="android:stateListAnimator">@null</item>
+    <item name="android:textSize">15sp</item>
+  </style>
+
+  <style name="WhiteTextStyle">
+    <item name="android:textColor">@color/colorWhite</item>
+  </style>
+
+  <style name="BlackTextStyle">
+    <item name="android:textColor">@color/colorBlack</item>
+    <item name="textAllCaps">false</item>
+  </style>
+
+  <style name="LightBlackTextStyle">
+    <item name="android:textColor">@color/colorLightBlack</item>
+    <item name="textAllCaps">false</item>
+  </style>
+
+  <style name="LightGreenTextStyle">
+    <item name="android:textColor">@color/colorLightGreen</item>
+    <item name="textAllCaps">false</item>
+  </style>
+
+  <style name="WhiteTextStyle.Size27">
+    <item name="android:textSize">27sp</item>
+  </style>
+
+  <style name="BlackTextStyle.Size24">
+    <item name="android:textSize">24sp</item>
+  </style>
+
+  <style name="BlackTextStyle.Size16">
+    <item name="android:textSize">16sp</item>
+  </style>
+
+  <style name="BlackTextStyle.Size18">
+    <item name="android:textSize">18sp</item>
+  </style>
+
+  <style name="BlackTextStyle.Size20">
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="BlackTextStyle.Size14">
+    <item name="android:textSize">14sp</item>
+  </style>
+
+  <style name="LightBlackTextStyle.Size13">
+    <item name="android:textSize">13sp</item>
+  </style>
+
+  <style name="LightBlackTextStyle.Size15">
+    <item name="android:textSize">15sp</item>
+  </style>
+
+  <style name="BlackTextStyle.Size12">
+    <item name="android:textSize">12sp</item>
+  </style>
+
+  <style name="LightGreenTextStyle.Size12">
+    <item name="android:textSize">12sp</item>
+  </style>
+
+</resources>

@@ -1,0 +1,172 @@
+<resources>
+  <string name="app_name">Covid App</string>
+
+  <string name="label_login">Login</string>
+  <string name="label_register">Register</string>
+  <string name="label_home_title">Covid 19 \nRisk Analysis \nSystem</string>
+  <string name="label_login_title">Welcome Back! \nLog In</string>
+  <string name="label_username">Username</string>
+  <string name="hint_enter_username">Enter username</string>
+  <string name="label_password">Password</string>
+  <string name="hint_enter_password">Enter password</string>
+  <string name="hint_re_enter_password">Confirm your password</string>
+  <string name="label_show">Show</string>
+  <string name="label_hide">Hide</string>
+  <string name="label_register_here">Register Here</string>
+  <string name="label_name">Name</string>
+  <string name="label_first_name">First Name</string>
+  <string name="label_last_name">Last Name</string>
+  <string name="label_phone">Phone</string>
+  <string name="label_mobile_number">Mobile Number</string>
+  <string name="label_address">Address</string>
+  <string name="label_house_no">House Number</string>
+  <string name="label_house_lane">Lane</string>
+  <string name="label_house_suburb">Suburb</string>
+  <string name="label_house_postcode">Postcode</string>
+  <string name="label_dob">DOB</string>
+  <string name="label_gender">Gender</string>
+  <string name="label_male">Male</string>
+  <string name="label_female">Female</string>
+  <string name="label_email">Email</string>
+  <string name="label_forget_password">Forget Password?</string>
+  <string name="label_map">Map</string>
+  <string name="label_news">News</string>
+  <string name="label_meter">Meter</string>
+  <string name="label_yes">Yes</string>
+  <string name="label_no">No</string>
+  <string name="label_take_test">Take Test </string>
+  <string name="label_results">Results</string>
+  <string name="label_test">Test</string>
+  <string name="label_previous_results">Previous Results</string>
+  <string name="label_user_manual">User Manual</string>
+  <string name="label_test_progress">Test Progress</string>
+  <string name="label_thank">Thanks for taking Test</string>
+  <string name="label_found_risk">You Have Found \nHigh Risk</string>
+  <string name="label_go_for_consultant">Go For Consultant</string>
+  <string name="label_type_here">Type here</string>
+  <string name="label_save">Save</string>
+  <string name="label_next">Next</string>
+  <string name="label_view_results">View Results</string>
+  <string name="label_find_consultants">Find Nearby Consultants</string>
+  <string name="label_make_appointment">Make an Appointment</string>
+  <string name="label_call">Call</string>
+  <string name="label_set_alert">Set Alert</string>
+  <string name="label_consultant">Consultant</string>
+
+  <string name="label_your_risk_meter">Your risk meter  :</string>
+  <string name="label_recommendation">Recommendation : </string>
+
+  <string name="label_rest_desc">You can test your condition by answering few questions according to your symptoms</string>
+  <string name="label_result_desc">You past results can be review with results of the test</string>
+  <string name="title_activity_maps">Map</string>
+
+  <string name="label_password_updated">Password successfully updated.</string>
+  <string name="label_first_name_required">First name required</string>
+  <string name="label_last_name_required">Last name required</string>
+  <string name="label_dob_required">Date of Birth required</string>
+  <string name="label_email_required">Email address required.</string>
+  <string name="label_email_not_valid">Please enter a valid email address.</string>
+  <string name="label_username_required">Username required.</string>
+  <string name="label_username_not_valid">Username is not valid.</string>
+
+  <string name="label_phone_required">Phone number required.</string>
+  <string name="label_phone_not_valid">Invalid phone number.</string>
+  <string name="label_password_required">Password required.</string>
+  <string name="label_re_enter_password">Re enter your password for confirmation.</string>
+  <string name="label_password_length">Password should be at least 8 characters long.</string>
+  <string name="label_password_not_match">Passwords don\'t match. Please try again.</string>
+
+  <string name="error_error">Error</string>
+  <string name="label_ok">OK</string>
+  <string name="label_confirmation">Confirmation</string>
+  <string name="label_cancel">Cancel</string>
+  <string name="label_success">Success</string>
+
+  <string name="error_invalid_api_key">Invalid api key.</string>
+  <string name="error_user_name_exist">Username already exist.</string>
+  <string name="error_email_exist">This email address is already been taken. Try again with another.</string>
+  <string name="error_credential_not_match">Credentials do not match with our records.</string>
+  <string name="error_invalid_password">Invalid password. Please try again.</string>
+  <string name="error_unkown">Unknown error occurred.</string>
+  <string name="error_data_not_found">Data not found.</string>
+  <string name="error_user_not_found">User not found.</string>
+  <string name="error_email_not_match">Email Address does not match with our records.</string>
+  <string name="error_internal_server">Internal server error. Please try again later.</string>
+  <string name="error_invalid_token">Access token expired!</string>
+  <string name="error_email_not_valid">Please enter a valid email address.</string>
+
+  <string name="error_something_wrong">We are unable to connect with server, please try again
+    later
+  </string>
+
+  <string name="register_success_msg">User Registered, Please Login</string>
+  <string name="label_check_internet">Seems like a problem with your internet connection, please check it again.
+  </string>
+
+
+  <string name="label_que_1">Question 01:</string>
+  <string name="label_que_2">Question 02:</string>
+  <string name="label_que_3">Question 03:</string>
+  <string name="label_que_4">Question 04:</string>
+  <string name="label_que_5">Question 05:</string>
+  <string name="label_que_6">Question 06:</string>
+  <string name="label_que_7">Question 07:</string>
+  <string name="label_que_8">Question 08:</string>
+  <string name="label_que_9">Question 09:</string>
+  <string name="label_que_10">Question 10:</string>
+  <string name="label_que_11">Question 11:</string>
+  <string name="label_que_12">Question 12:</string>
+  <string name="label_que_13">Question 13:</string>
+  <string name="label_que_14">Question 14:</string>
+  <string name="label_que_15">Question 15:</string>
+  <string name="label_que_16">Question 16:</string>
+  <string name="label_que_17">Question 17:</string>
+  <string name="label_que_18">Question 18:</string>
+  <string name="label_que_19">Question 19:</string>
+  <string name="label_que_20">Question 20:</string>
+  <string name="label_que_21">Question 21:</string>
+  <string name="label_que_22">Question 22:</string>
+  <string name="label_que_23">Question 23:</string>
+  <string name="label_que_24">Question 24:</string>
+  <string name="label_que_25">Question 25:</string>
+
+
+  <string name="label_body_temperature">What is your current body temperature (in \'c)?</string>
+  <string name="label_dry_cough">Do you have dry cough?</string>
+  <string name="label_sneezing">Do you have sneezing?</string>
+  <string name="label_sore_throat">Do you feel sore throat?</string>
+  <string name="label_runny_nose">Do you have runny nose?</string>
+  <string name="label_stomach_pain">Do you have Stomach pain?</string>
+  <string name="label_diarrhea">Do you have diarrhea?</string>
+  <string name="label_weakness">Do you feel weakness?</string>
+
+  <string name="label_moderate_cough">Do you have moderate cough?</string>
+
+  <string name="label_high_cough">Do you have high cough?</string>
+  <string name="label_feeling_breathless">Do you feel breathless?</string>
+  <string name="label_difficult_breathless">Do you have difficulty to breath?</string>
+  <string name="label_drowsiness">Do you feel drowsiness?</string>
+  <string name="label_severe_weakness">Do you feel severe weakness?</string>
+  <string name="label_chest_pain">Do you have chest pain?</string>
+
+  <string name="label_diabetes">Are you patient of diabetes?</string>
+  <string name="label_high_dp">Are you patient of high blood pressure?</string>
+
+  <string name="label_heart_disease">Are you patient of heart disease?</string>
+  <string name="label_kidney_disease">Are you patient of kidney disease?</string>
+  <string name="label_lung_disorder">Are you patient of lung disorder?</string>
+  <string name="label_stroke">Do you ever had stroke?</string>
+
+  <string name="label_compromised_imu_sys">Do you have condition of compromised immune
+system?</string>
+
+  Regarding travelling
+
+  <string name="T_in_days">Did you travel within 14 days in overseas countries?</string>
+  <string name="T_in_hrs">Did you travel within 14 hours in overseas countries?</string>
+  <string name="contact_cnf_case">Had you been in contact of COVID-19 confirmed person?</string>
+
+
+  <string name="label_logout_confirmation">Are you sure you want to logout?</string>
+
+</resources>
