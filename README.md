@@ -1,0 +1,2 @@
+# covidapp_CQU_COIT20272
+This is android application which is help to people getting aware about the symptoms and solutions regarding covid-19 disease. The app is giving an analytical result on covid risk according to symptoms in each body using application, this will be one of the easiest way for app users to know more about it at home. MySQl database is config with PHP7 Restful API and hosted in HostGator which can communicate with any android application.
